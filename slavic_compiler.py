@@ -45,6 +45,6 @@ for line in lines:
 output_data = "\n".join(processed_lines)
 
 # Печатаем итоговый вариант программы
-with open(f"{file_name}_temp.cpp", "w") as o:
+with open(f"{file_name}_temp.c", "w") as o:
     o.write(output_data)
-os.system(f"g++ -o {file_name.split('.')[0]} {file_name}_temp.cpp")
+os.system(f"gcc -o {file_name.split('.')[0]} {file_name}_temp.c")
