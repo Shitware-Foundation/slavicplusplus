@@ -1,5 +1,8 @@
 import os
 keywords = {
+        "подмена": "typedef",
+        "ящик": "struct",
+        "признание": "enum",
         "цифра": "int",
         "строка": "char",
         "булев": "bool",
